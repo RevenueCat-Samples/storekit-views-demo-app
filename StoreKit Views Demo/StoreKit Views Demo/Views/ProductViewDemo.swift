@@ -4,7 +4,7 @@ import StoreKit
 struct ProductViewDemo: View {
     var body: some View {
             ScrollView(.vertical) {
-                VStack(spacing: 16){
+                VStack(spacing: 16) {
                     ProductView(id: "pro_yearly") {
                         ProductImage(productId: "pro_yearly")
                     }
@@ -31,6 +31,7 @@ struct ProductViewDemo: View {
                     
                     restoreButton
                 }
+                .padding(.top, 32)
             }
             .background(LinearGradient(colors: [.blue, .red], startPoint: .topLeading, endPoint: .bottomTrailing))
             .foregroundColor(.white)
@@ -85,5 +86,8 @@ struct ProductViewDemo: View {
 }
 
 #Preview {
-    ProductViewDemo()
+    Text("hi")
+        .sheet(isPresented: .constant(true), content: {
+            ProductViewDemo()
+        })
 }

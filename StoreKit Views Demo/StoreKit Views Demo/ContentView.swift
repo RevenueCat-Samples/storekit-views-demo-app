@@ -33,10 +33,10 @@ struct ContentView: View {
             }
             .navigationTitle("StoreKit Views Demo")
         })
-        .fullScreenCover(isPresented: $showManualPaywall) { ManualPaywallView() }
-        .fullScreenCover(isPresented: $showStoreViewDemo) { StoreViewDemoView() }
-        .fullScreenCover(isPresented: $showProductViewDemo) { ProductViewDemo() }
-        .fullScreenCover(isPresented: $showSubscriptionStoreViewDemo) { SubscriptionStoreViewDemo() }
+        .sheet(isPresented: $showManualPaywall) { ManualPaywallView() }
+        .sheet(isPresented: $showStoreViewDemo) { StoreViewDemoView() }
+        .sheet(isPresented: $showProductViewDemo) { ProductViewDemo() }
+        .sheet(isPresented: $showSubscriptionStoreViewDemo) { SubscriptionStoreViewDemo() }
     }
 }
 
