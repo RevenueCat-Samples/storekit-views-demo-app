@@ -86,8 +86,5 @@ struct ProductViewDemo: View {
 }
 
 #Preview {
-    Text("hi")
-        .sheet(isPresented: .constant(true), content: {
-            ProductViewDemo()
-        })
+    ProductViewDemo()
 }
