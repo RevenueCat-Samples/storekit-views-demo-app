@@ -1,0 +1,169 @@
+{
+  "identifier" : "EC0F9B9C",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "89.99",
+      "familyShareable" : false,
+      "internalID" : "D350339B",
+      "localizations" : [
+        {
+          "description" : "Pro for lifetime",
+          "displayName" : "Lifetime",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "pro_lifetime",
+      "referenceName" : "Lifetime",
+      "type" : "Consumable"
+    }
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "E708CD77",
+      "localizations" : [
+
+      ],
+      "name" : "Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "0.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "B72C91A7",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "A monthly sub",
+              "displayName" : "Monthly Sub",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "pro_monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Monthly Sub",
+          "subscriptionGroupID" : "E708CD77",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "12.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "C3E93CD6",
+          "introductoryOffer" : {
+            "internalID" : "EB2E513E",
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P1W"
+          },
+          "localizations" : [
+            {
+              "description" : "A yearly sub",
+              "displayName" : "Yearly Sub",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "pro_yearly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Yearly Sub",
+          "subscriptionGroupID" : "E708CD77",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "0.49",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "CA69D4B3",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "A weekly sub",
+              "displayName" : "Weekly Sub",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "pro_weekly",
+          "recurringSubscriptionPeriod" : "P1W",
+          "referenceName" : "Weekly Sub",
+          "subscriptionGroupID" : "E708CD77",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
